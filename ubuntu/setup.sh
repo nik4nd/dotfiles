@@ -13,8 +13,8 @@ sudo apt update
 sudo apt full-upgrade -y
 
 title "| INSTALLING SOFTWARE |"
-sudo apt install i3 brightnessctl feh lxterminal tmux vim htop gparted \
-                 pavucontrol firefox vlc libreoffice -y
+sudo apt install i3 brightnessctl feh compton lxterminal tmux vim htop \
+                 gparted pavucontrol firefox vlc libreoffice -y
 
 title "| CONFIGURING DIRECTORIES |"
 mkdir -p ~/nik4nd/GitHub ~/nik4nd/Scripts
